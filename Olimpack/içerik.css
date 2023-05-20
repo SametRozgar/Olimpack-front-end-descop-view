@@ -1,0 +1,82 @@
+nav {
+	display: flex;
+	align-items: center;
+	justify-content:center;
+	padding: 20px;
+	background-color: green;
+	color: white;
+    text-align: center;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+    
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+nav ul li a.active {
+	background-color: #fff;
+	color: #333;
+}
+
+.property {
+	display: none;
+	padding: 20px;
+}
+
+.property.active {
+	display: block;
+}
+.buy-machine
+{
+	display: flex;
+
+	position: relative;
+
+}
+.container
+{
+	display: flex;
+	position: relative;
+}
+.images
+{
+	display:flex ;
+	flex-direction: column;
+	width: 200px;
+	
+}
+img{
+	margin-top:10px ;
+	padding: 10px;
+	
+}
+.big-image
+{
+	
+	margin-left: 10px;
+	margin-top: 8px;
+}
+.sections
+{
+	margin-left: 300px;
+	margin-top: 150px;
+}

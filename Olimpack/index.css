@@ -1,0 +1,417 @@
+
+.communate {
+  
+  display: flex;
+  height: 40px;
+  
+  flex-wrap: nowrap;
+  
+  flex-direction: row;
+ 
+  background: rgb(230, 230, 230);
+  
+}
+.headerBar_item {
+ 
+  float: right;
+  padding-left: 30px;
+  margin-left: 40px;
+  
+  size: 40px;
+}
+.headerButton
+{
+  font-size: large;
+  border: none;
+  background-color:rgb(230, 230, 230); ;
+  color: green;
+}
+.headerMenu
+{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: green;
+  height: 60px;
+}
+.headerMenuİtem
+{
+  margin-left: 25px;
+display: flex;
+float: right;
+}
+.headerMenuButton
+{
+  background-color: green;
+  border: none;
+  font-size: large;
+  color: #fff;
+  margin-left:100px;
+}
+.show
+{
+  display: flex;
+  background-image: url(BANNER.jpg);
+  flex-direction: row;
+ flex-wrap: nowrap;
+ background-size:cover;
+ width:100%;
+ height: 500px;
+}
+body{
+  background-color:#fff;
+}
+
+.productList
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:baseline;
+ 
+ margin-left: 70px;
+ 
+ background-color: #fff;
+
+}
+.machine
+{
+ 
+  
+  background-color: #fff;
+  
+  border: 3px solid green; 
+ margin-left: 10px;
+ 
+  flex-wrap: nowrap;
+  transition: 0.5s;
+  
+}
+.machine:hover 
+{
+  transform: scale(1.1);
+
+}
+.productList2
+{
+  display: flex;
+
+flex-wrap: wrap;
+margin-left: 100px;
+background-color: #fff;
+
+
+}
+
+.machine2
+{
+  text-align: center;
+  background-color: green;
+  color: #fff;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.machine2:hover
+{
+  color: rgba(14, 12, 12, 0.4);
+}
+
+.references
+{
+   display: flex;
+
+flex-wrap: wrap;
+
+background-color: #fff;
+justify-content: center;
+}
+.reference
+{
+  border: 1px solid;
+   text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: #635f5f;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-size: 80px;
+  padding: 40px;
+  margin: 40px;
+}
+.reference:hover
+{
+  color: blue;
+}
+.map
+{
+ 
+background-image: url(WhatsApp\ Image\ 2023-05-03\ at\ 12.55.18.jpeg);
+display: block;
+ background-repeat: no-repeat;
+ background-size: cover;
+ flex-wrap: nowrap;
+ width: 1300px;
+ height: 550px;
+ margin-left: 110px;
+ 
+
+
+ 
+}
+.famousMachines
+{
+  display: flex;
+ 
+ 
+  flex-wrap: wrap;
+  margin-left: 110px;
+  
+
+}
+.fam{
+  margin-left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  background-color: green;
+  width: 300px;
+}
+.icons
+{
+  background-color: aliceblue;
+  margin-top: 30px;
+ display: block;
+ width: 100%;
+ flex-wrap: wrap;
+ 
+ 
+}
+.icon{
+  
+  text-align: center;
+  
+  width: 130px;
+  float: right;
+  margin-right: 140px;
+  
+
+  
+}
+.footİmg
+{
+  background-image: url(ANASAYFA-TASARIM.jpg);
+  display: flex;
+  flex-direction: row;
+  background-size: cover;
+ width: 100%;
+ height: 900px;
+
+ background-position: center;
+}
+.road
+{
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color: green;
+ 
+}
+.road_item
+{
+  margin-top: 20px;
+  margin-left: 45%;
+}
+.location
+{
+  background-image: url(Ekran\ Görüntüsü\ \(462\).png);
+  display: flex;
+  background-size: cover;
+  width: 1500px;
+  height: 500px;
+}
+.contact
+{
+ 
+margin-left: 700px;
+position: relative;
+margin-top:20px ;
+}
+.contract-bar
+{
+  font-size: x-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   position: relative;
+  border: 1px solid ;
+  border-color:rgb(225, 215, 215) rgb(225, 215, 215)  rgb(48, 229, 35) rgb(225, 215, 215);
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 35px;
+  margin-top: 30px;
+  
+
+  
+}
+i
+{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.kurumsal
+{
+  background-image: url(WhatsApp\ Image\ 2023-05-06\ at\ 18.22.05.jpeg);
+  background-size: cover;
+  display: flex;
+  position: relative;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 700px;
+  
+}
+section
+{
+  
+}
+.kurumsal-btn
+{
+  display: flex;
+  border: none;
+  border-bottom: 1px solid;
+  padding: 20px;
+  font-size: large;
+  color: #fff;
+  background: transparent;
+  transition: 0.5s;
+ 
+  margin-left: 20px;
+}
+.kurumsal-btn:hover
+{
+  background-color: green;
+  transform: scale(1.1);
+}
+.text
+{
+ font-size: larger;
+ color: #fff;
+  position: absolute;
+  width: 700px;
+  margin-left: 600px;
+  margin-top: 40px;
+  
+}
+.basket
+{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 95%;
+  padding: 20px;
+
+}
+.buys
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.buy
+{
+ margin-top: 20px;
+  border: 1px solid #fff;
+  display: flex;
+ 
+  position: relative;
+  width: 50%;
+}
+
+.box
+{
+  background-color: rgb(214, 219, 222);
+position: absolute;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  border: 1px solid;
+  margin-left: 1000px;
+  margin-top: 150px;
+  padding-top: 20px;
+ 
+  
+}
+.footer-section
+{
+ margin-top: 250px;
+  display: flexbox;
+  position: relative;
+  background-color: green;
+  z-index: 0;
+  white-space: nowrap;
+}
+.sectionbars
+{
+  display: flex;
+  text-align: center;
+  padding-right: 100px;
+  z-index: 0;
+  white-space: nowrap;
+  
+}
+.bar{
+  margin-left: 280px;
+  font-size: x-large;
+  z-index: 0;
+  white-space: nowrap;
+}
+.footer-communate
+{
+ display: flex;
+  position:absolute;
+  
+  border: 1px solid;
+  border-radius: 5px;
+  width: 80%;
+  height: 60px;
+  z-index: 1;
+  background-color: #fff;
+  margin-left: 120px;
+margin-bottom: 150px; 
+white-space: nowrap;
+ 
+}
+.communate-section
+{
+  margin-top: 10px;
+  margin-left: 150px;
+  padding: 10px;
+  width: 30%;
+  color: green;
+  white-space: nowrap;
+
+}
+footer
+{
+  z-index: 0;
+  background-color: #000000;
+}
+.lists
+{
+  display: flex;
+  width: 100%;
+  background-color: black;
+  margin-top: 0px;
+
+  
+}
+.list
+{
+  
+  padding: 15px;
+  width: 20%;
+  margin-left: 30px;
+  
+}
+ul
+{
+  color: green;
+}
+li:hover
+{
+  color: green;
+}
